@@ -75,3 +75,8 @@ table {
     border: 1px red solid;
     height: 50px;
 }
+
+.buttons .selecionado{
+    background: rgb(158, 76, 76);
+    color: white
+}
