@@ -3,37 +3,40 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="js/script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <div class="insertNum">
-            <p class="numResult">0</p>
+    <main>
+    <section class="calculator">
+        <div class="result">
+            <p class="newResult">0</p>
+            <p class="finalResult">0</p>
         </div>
         <div class="buttons">
-            <button class="C">C</button>
-            <button class="M+">M+</button>
-            <button class="del">del</button>
-            <button class="/">/</button>
-            <button class="num 7">7</button>
-            <button class="num 8">8</button>
-            <button class="num 9">9</button>
-            <button class="x">x</button>
-            <button class="num 4">4</button>
-            <button class="num 5">5</button>
-            <button class="num 6">6</button>
-            <button class="-">-</button>
-            <button class="num 1">1</button>
-            <button class="num 2">2</button>
-            <button class="num 3">3</button>
-            <button class="+">+</button>
-            <button class="+/-">+/-</button>
-            <button class="num 0">0</button>
-            <button class="num ,">,</button>
-            <button class="=">=</button>
+            <button class="clearButton head" data-op="clearButton">AC</button>
+            <button class="plusButton head" data-op="plusButton"><sup>+</sup><span>/</span>-</button>
+            <button class="percentage head" data-op="percentage">%</button>
+            <button class="divide" data-op="divide">&divide</button>
+            <button class="num7" data-num="num7">7</button>
+            <button class="num8" data-num="num8">8</button>
+            <button class="num9" data-num="num9">9</button>
+            <button class="mult" data-op="mult">x</button>
+            <button class="num4" data-num="num4">4</button>
+            <button class="num5" data-num="num5">5</button>
+            <button class="num6" data-num="num6">6</button>
+            <button class="substraction" data-op="substraction">-</button>
+            <button class="num1" data-num="num1">1</button>
+            <button class="num2" data-num="num2">2</button>
+            <button class="num3" data-num="num3">3</button>
+            <button class="sum" data-op="sum">+</button>
+            <button class="num0" data-num="num0">0</button>
+            <button class="num." data-num="num.">.</button>
+            <button class="equal" data-op="equal">=</button>
         </div>
-    </div>
-    <script src="./script.js"></script>
+    </section>
+    </main>
 </body>
 </html>

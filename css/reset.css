@@ -1,0 +1,21 @@
+html{
+    font-size: 24px;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+}
+
+button{
+    cursor: pointer;
+    font-size: 2rem;
+}
+
+button, p{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
